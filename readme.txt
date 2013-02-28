@@ -5,11 +5,20 @@ Tags: show,header,footer,log,info,plugin,plugins,active,sLa,sLaNGjI,sLaNGjIs,Wor
 Stable tag: 2013.0218.0933
 Requires at least: 2.1
 Tested up to: 3.8
-License: GPLv2 or later
+License: GPLv2 (or later)
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Insert and Show Informational Text Log (sample) on Header and Footer when Plugin is Activated available and visible with view source browser function.
 == Description ==
 This plugin explain one sample to insert and Show Informational Text Log (sample) on Header and Footer when Plugin is Activated, available and visible with view source browser function, without add nothing to wp_option database!
+`
+No need to delete anything from hosting space when deactivate!
+No need to delete anything from hosting space when deleted!
+No need to delete anything from the database when deactivate!
+No need to delete anything from the database when deleted!
+No need to delete anything from the wp_option when deactivate!
+No need to delete anything from the wp_option when deleted!
+Not need other actions except installing or uninstall it!
+`
 == Installation ==
 1. Upload `WP Header and Footer Log` to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
@@ -44,10 +53,11 @@ Markdown uses email style notation for blockquotes and I've been told:
 == Changelog ==
 = Todo List =
 1. √ Security Key Tag Support	(2013.0217.1138)
+1. √ Assign Key Tag to Log		(2013.0218.0933)
 1. Authenticity Plugin Check	(2013.0000.2014) No Date Set!
 1. Secure Plugin Activation		(2013.0000.2014) No Date Set!
 = Development Release =
-[Version 2013 Build 0000-BUGFIX.2014-DEVELOPMENTAL](http://downloads.wordpress.org/plugin/slangji.zip)
+[Version 2013 Build 0000-BUGFIX.2014-DEVELOPMENTAL](http://downloads.wordpress.org/plugin/wp-header-footer-log.zip)
 = Disclaimer =
 `All previous release, prior of latest stable, are on fact
 deprecated, and no longer supported on this project:
@@ -69,6 +79,7 @@ is very suggested upgrade to the latest build always!`
 * Work under [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) or later License.
 * Implement [GNU style](http://www.gnu.org/prep/standards/standards.html) coding standard indentation.
 * Meet detailed [Plugin Guidelines](http://wordpress.org/extend/plugins/about/guidelines/) quality requirements.
+* Code in Becoming
 * Less Memory Consumption.
 * Full Strict Security Rules Applied.
 * Handy Syntax Improvement.
@@ -87,13 +98,13 @@ is very suggested upgrade to the latest build always!`
 = 2013.0217.1138 =
 Release [STABLE] Introducing Security Key Tag Support.
 = 2009.1208.2009 =
-Release [STABLE] Insert/Show Info Text Log on Header/Footer when Plugin is Active.
+Release [STABLE] Insert and Show Informational Text on Header and Footer when Plugin is Activated.
 == Arbitrary Section ==
 You may provide arbitrary sections, in the same format as the ones above. This may be of use for extremely complicated plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or "installation."  Arbitrary sections will be shown below the built-in sections outlined above.
 = License =
 [WP Header and Footer Log](http://wordpress.org/extend/plugins/wp-header-footer-log/) - Insert and Show Informational Text on Header and Footer when Plugin is Activated.
 
-Copyright (C) 2009-2013 [sLaNGjI's](http://slangji.wordpress.com/slangjis/) (email: <slangji[at]gmail[dot]com>)
+Copyright (C) 2008-2013 [sLaNGjI's](http://slangji.wordpress.com/slangjis/) (email: <slangji[at]gmail[dot]com>)
 
 * This program is free software; you can redistribute it and/or
 modify it under the terms of the [GNU General Public License](http://wordpress.org/about/gpl/)
@@ -112,13 +123,15 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 The license for this software can be found on [Free Software Foundation](http://www.gnu.org/licenses/gpl-2.0.html) and as license.txt into this plugin package.
 = Therms =
 This uses code derived from
+
 1. wp-footer-log.php by sLa <slangji[at]gmail[dot]com>
 1. sLa2sLaNGjIs.php by sLa <slangji[at]gmail[dot]com>
+
 according to the terms of the GNU General Public License version 2 (or later)
 
 According to the Terms of the GNU General Public License version 2 (or later) part of Copyright belongs to your own author and part belongs to their respective others authors:
 
-1. Copyright (C) 2009-2013 sLa (email: <slangji[at]gmail[dot]com>)
+Copyright (C) 2008-2013 sLa (email: <slangji[at]gmail[dot]com>)
 = Disclaimer =
 * The license under which the WordPress software is released is the GPLv2 (or later) from the Free Software Foundation. A copy of the license is included with every copy of WordPress.
 

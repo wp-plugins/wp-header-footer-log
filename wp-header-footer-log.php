@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: WP Header and Footer Log
+Plugin Name: √ WP Header and Footer Log
 Plugin URI: http://slangji.wordpress.com/wp-header-footer-log/
 Description: This plugin explain how to insert and Show Informational Text Log (sample) on Header and Footer when Plugin is Activated, available and visible with view source browser function, without add nothing to wp_option database!
 Version: 2013.0218.0933
@@ -8,9 +8,9 @@ Author: sLa
 Author URI: http://slangji.wordpress.com/
 Requires at least: 2.1
 Tested up to: 3.8
-License: GPLv2 or later
+License: GPLv2 (or later)
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Indentation: GNU style coding standard
+Indentation: GNU (style coding standard)
 Indentation URI: http://www.gnu.org/prep/standards/standards.html
  *
  * DEVELOPMENT Release: Version 2013 Build 0000-BUGFIX Revision 2014-DEVELOPMENTAL
@@ -19,7 +19,7 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
  *
  * [WP Header and Footer Log](http://wordpress.org/extend/plugins/wp-header-footer-log/) Insert and Show Informational Text Log on Header and Footer when Plugin is Activated.
  *
- * Copyright (C) 2009-2013 [sLaNGjI's](http://slangji.wordpress.com/slangjis/) (email: <slangji[at]gmail[dot]com>)
+ * Copyright (C) 2008-2013 [sLaNGjI's](http://slangji.wordpress.com/slangjis/) (email: <slangji[at]gmail[dot]com>)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the [GNU General Public License](http://wordpress.org/about/gpl/)
@@ -45,7 +45,7 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
  *
  * According to the Terms of the GNU General Public License version 2 (or later) part of Copyright belongs to your own author and part belongs to their respective others authors:
  *
- * Copyright (C) 2009-2013 sLa (email: <slangji[at]gmail[dot]com>)
+ * Copyright (C) 2008-2013 sLa (email: <slangji[at]gmail[dot]com>)
  *
  * √ DISCLAIMER
  *
