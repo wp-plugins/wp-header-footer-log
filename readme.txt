@@ -1,4 +1,4 @@
-=== Header and Footer Log (insert text info source) ===
+=== Header and Footer Log (insert source info text) ===
 Contributors: sLaNGjI
 Donate link: http://slangji.wordpress.com/donate/
 Tags: show,header,footer,log,info,plugin,plugins,active,sLa,sLaNGjI,sLaNGjIs,WordPress
