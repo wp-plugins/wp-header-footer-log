@@ -1,13 +1,13 @@
-=== Header and Footer Log (insert show info text) ===
+=== √ Header and Footer Log (insert show info text) ===
 Contributors: sLaNGjI
 Donate link: http://slangji.wordpress.com/donate/
 Tags: show,header,footer,log,info,plugin,plugins,active,sLa,sLaNGjI,sLaNGjIs,WordPress
 Stable tag: 2009.1208.2009
 Requires at least: 2.1
 Tested up to: 2.9
-License: GPLv2 (or later)
+License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Insert and Show Informational Text Log (sample) on Header and Footer when Plugin is Activated available and visible with view source browser function.
+&#9733;&#9733;&#9733; Insert and Show Informational Text Log (sample) on Header and Footer when Plugin is Activated available and visible with view source browser function.
 == Description ==
 This plugin explain one sample to insert and Show Informational Text Log (sample) on Header and Footer when Plugin is Activated, available and visible with view source browser function, without add nothing to wp_option database!
 `
