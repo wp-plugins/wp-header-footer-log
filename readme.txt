@@ -1,14 +1,16 @@
-=== √ Header and Footer Log (insert source info text) ===
-Contributors: sLaNGjI
+=== Header and Footer Log (insert source nfo text) ===
+Contributors: slangjis
 Donate link: http://slangji.wordpress.com/donate/
-Tags: show,header,footer,log,info,plugin,plugins,active,sLa,sLaNGjI,sLaNGjIs,WordPress
-Stable tag: 2013.0218.0933
+Tags: show ,header, footer, log, info, plugin, plugins, active, sla, slangjis, wordpress
+Stable tag: trunk
 Requires at least: 2.1
 Tested up to: 3.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-&#9733;&#9733;&#9733; Insert Informational Text Log (available and visible with view source browser function) on Header and Footer when Plugin is Activated.
+insert informational text log (available and visible with view source browser function) on header and footer when plugin is activated.
 == Description ==
+insert informational text log (available and visible with view source browser function) on header and footer when plugin is activated.
+
 This plugin explain one sample how to Insert Informational Text Log (available and visible with view source browser function) on Header and Footer when Plugin is Activated, without add nothing to wp_option database!
 `
 No need to delete anything from hosting space when deactivate!
@@ -54,8 +56,8 @@ Markdown uses email style notation for blockquotes and I've been told:
 2. Informational Text Showed on Footer Log
 == Changelog ==
 = Todo List =
-1. √ Security Key Tag Support	(2013.0217.1138)
-1. √ Assign Key Tag to Log		(2013.0218.0933)
+1. Security Key Tag Support	(2013.0217.1138)
+1. Assign Key Tag to Log		(2013.0218.0933)
 1. Authenticity Plugin Check	(2013.0000.2014) No Date Set!
 1. Secure Plugin Activation		(2013.0000.2014) No Date Set!
 = Development Release =
@@ -69,7 +71,7 @@ is very suggested upgrade to the latest build always!`
  * NEW Assign Security Key Tag to Plugin Info Text Log
  * BUMP Version 2013 Build 0218 Revision 0933
 = 2013.0217.1138 =
-* Release [STABLE] Introducing a New Idea of sLa: Security Key Tag Support
+* Release [STABLE] Introducing a New Idea of sla: Security Key Tag Support
  * NEW Security Key Tag Support
  * UPDATE Improved Strict Security Rules (The Return of index.php Reloaded)
  * BUMP Version 2013 Build 0217 Revision 1138
@@ -106,7 +108,7 @@ You may provide arbitrary sections, in the same format as the ones above. This m
 = License =
 [WP Header and Footer Log](http://wordpress.org/extend/plugins/wp-header-footer-log/) - Insert and Show Informational Text on Header and Footer when Plugin is Activated.
 
-Copyright (C) 2008-2013 [sLaNGjI's](http://slangji.wordpress.com/slangjis/) (email: <slangji[at]gmail[dot]com>)
+Copyright (C) 2008-2013 [sLa NGjI's](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
 
 * This program is free software; you can redistribute it and/or
 modify it under the terms of the [GNU General Public License](http://wordpress.org/about/gpl/)
@@ -126,14 +128,14 @@ The license for this software can be found on [Free Software Foundation](http://
 = Therms =
 This uses code derived from
 
-1. wp-footer-log.php by sLa <slangji[at]gmail[dot]com>
-1. sLa2sLaNGjIs.php by sLa <slangji[at]gmail[dot]com>
+1. wp-footer-log.php by sla <slangjis[at]gmail[dot]com>
+1. sLa2sLaNGjIs.php by sla <slangjis[at]gmail[dot]com>
 
 according to the terms of the GNU General Public License version 2 (or later)
 
 According to the Terms of the GNU General Public License version 2 (or later) part of Copyright belongs to your own author and part belongs to their respective others authors:
 
-Copyright (C) 2008-2013 sLa (email: <slangji[at]gmail[dot]com>)
+Copyright (C) 2008-2013 sla (email: <slangji[at]gmail[dot]com>)
 = Disclaimer =
 * The license under which the WordPress software is released is the GPLv2 (or later) from the Free Software Foundation. A copy of the license is included with every copy of WordPress.
 
