@@ -4,7 +4,7 @@ Plugin Name: WP Header and Footer Log
 Plugin URI: http://slangji.wordpress.com/wp-header-footer-log/
 Description: This plugin explain how to insert and Show Informational Text Log (sample) on Header and Footer when Plugin is Activated, available and visible with view source browser function, without add nothing to wp_option database!
 Version: 2013.0218.0933
-Author: sLa NGjI's
+Author: slangjis
 Author URI: http://slangji.wordpress.com/
 Requires at least: 2.1
 Tested up to: 3.6
@@ -15,9 +15,9 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
  *
  * LICENSING
  *
- * [WP Header and Footer Log](http://wordpress.org/extend/plugins/wp-header-footer-log/) Insert and Show Informational Text Log on Header and Footer when Plugin is Activated.
+ * [WP Header and Footer Log](http://wordpress.org/plugins/wp-header-footer-log/) Insert and Show Informational Text Log on Header and Footer when Plugin is Activated.
  *
- * Copyright (C) 2008-2013 [sLa NGjI's](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
+ * Copyright (C) 2008-2013 [slangjis](http://slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the [GNU General Public License](http://wordpress.org/about/gpl/)
@@ -53,24 +53,24 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
  *
  * This uses (or it parts) code derived from
  *
- * wp-header-footer-log.php by sla <slangjis[at]gmail[dot]com>
- * Copyright (C) 2009-2013 [sLa NGjI's](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
+ * wp-header-footer-log.php by slangjis <slangjis [at] googlemail [dot] com>
+ * Copyright (C) 2009-2013 [slangjis](http://slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
  * according to the terms of the GNU General Public License version 2 (or later)
  *
  * This wp-header-footer-log.php uses (or it parts) code derived from
  *
- * wp-footer-log.php by sla <slangjis[at]gmail[dot]com>
- * Copyright (C) 2008-2013 [sLa NGjI's](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
+ * wp-footer-log.php by slangjis <slangjis [at] googlemail [dot] com>
+ * Copyright (C) 2008-2013 [slangjis](http://slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
- * sLa2sLaNGjIs.php by sla <slangjis[at]gmail[dot]com>
- * Copyright (C) 2009-2013 [sLa NGjI's](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
+ * sLa2sLaNGjIs.php by slangjis <slangjis [at] googlemail [dot] com>
+ * Copyright (C) 2009-2013 [slangjis](http://slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
  * according to the terms of the GNU General Public License version 2 (or later)
  *
  * According to the Terms of the GNU General Public License version 2 (or later) part of Copyright belongs to your own author and part belongs to their respective others authors:
  *
- * Copyright (C) 2008-2013 [sLa NGjI's](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
+ * Copyright (C) 2008-2013 [slangjis](http://slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
  * VIOLATIONS
  *
@@ -104,12 +104,12 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 	 * @status STABLE (trunk) release
 	 * @development Code in Becoming!
 	 * @install The configuration of this Plugin is Automattic!
-	 * @author sla NGjI's
+	 * @author slangjis
 	 * @license GPLv2 or later
 	 * @indentation GNU style coding standard
 	 * @keybit oRBjljV2RNjAy8GpN8TkMxxbFjDR3NYVUwrdsQJr1qqZplUxWxmvLhXQp1GSzyRKu
-	 * @keysum 68FC4A0197FE863C03BF2F9C560476D0
-	 * @keytag f398e6e416dd406673529fbd0b3e4dce
+	 * @keysum 3A94D6D3E459D1391BC1857AC67CF36B
+	 * @keytag 3c7d1bee1f4b94f3db033f90db47c536
  	 */
 
 	if ( !function_exists( 'add_action' ) )
@@ -131,6 +131,6 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 
 	function wp_log_info_class() //nfo Text and Key Tag to Add and Show on Header and Footer
 		{
-			echo "\n<!--Plugin Header and Footer Log 2013.0218.0933 Active - Key Tag: ".md5(md5("oRBjljV2RNjAy8GpN8TkMxxbFjDR3NYVUwrdsQJr1qqZplUxWxmvLhXQp1GSzyRKu"."68FC4A0197FE863C03BF2F9C560476D0"))."-->\n\n";
+			echo "\n<!--Plugin Header and Footer Log 2013.0218.0933 Active - Tag ".md5(md5("oRBjljV2RNjAy8GpN8TkMxxbFjDR3NYVUwrdsQJr1qqZplUxWxmvLhXQp1GSzyRKu"."3A94D6D3E459D1391BC1857AC67CF36B"))."-->\n\n";
 		}
 ?>

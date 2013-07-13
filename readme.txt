@@ -1,15 +1,15 @@
 === Header and Footer Log (insert source nfo text) ===
 Contributors: slangjis
 Donate link: http://slangji.wordpress.com/donate/
-Tags: show ,header, footer, log, info, plugin, plugins, active, sla, slangjis, wordpress
+Tags: show ,header, footer, log, info, plugin, plugins, active, sla, slangjis, wordpress, wp
 Stable tag: trunk
 Requires at least: 2.1
 Tested up to: 3.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-insert informational text log (available and visible with view source browser function) on header and footer when plugin is activated.
+insert informational text log (available and visible with view source browser function) on header and footer when plugin is activated
 == Description ==
-insert informational text log (available and visible with view source browser function) on header and footer when plugin is activated.
+insert informational text log (available and visible with view source browser function) on header and footer when plugin is activated
 
 This plugin explain one sample how to Insert Informational Text Log (available and visible with view source browser function) on Header and Footer when Plugin is Activated, without add nothing to wp_option database!
 `
@@ -82,7 +82,7 @@ is very suggested upgrade to the latest build always!`
 = Common Plugin Features for All Releases Build Versions =
 * Work under [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) or later License.
 * Implement [GNU style](http://www.gnu.org/prep/standards/standards.html) coding standard indentation.
-* Meet detailed [Plugin Guidelines](http://wordpress.org/extend/plugins/about/guidelines/) quality requirements.
+* Meet detailed [Plugin Guidelines](http://wordpress.org/plugins/about/guidelines/) quality requirements.
 * Code in Becoming
 * Less Memory Consumption.
 * Full Strict Security Rules Applied.
@@ -106,9 +106,9 @@ Release [STABLE] Insert and Show Informational Text on Header and Footer when Pl
 == Arbitrary Section ==
 You may provide arbitrary sections, in the same format as the ones above. This may be of use for extremely complicated plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or "installation."  Arbitrary sections will be shown below the built-in sections outlined above.
 = License =
-[WP Header and Footer Log](http://wordpress.org/extend/plugins/wp-header-footer-log/) - Insert and Show Informational Text on Header and Footer when Plugin is Activated.
+[WP Header and Footer Log](http://wordpress.org/plugins/wp-header-footer-log/) - Insert and Show Informational Text on Header and Footer when Plugin is Activated.
 
-Copyright (C) 2008-2013 [sLa NGjI's](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
+Copyright (C) 2008-2013 [slangjis](http://slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
 
 * This program is free software; you can redistribute it and/or
 modify it under the terms of the [GNU General Public License](http://wordpress.org/about/gpl/)
@@ -128,14 +128,14 @@ The license for this software can be found on [Free Software Foundation](http://
 = Therms =
 This uses code derived from
 
-1. wp-footer-log.php by sla <slangjis[at]gmail[dot]com>
-1. sLa2sLaNGjIs.php by sla <slangjis[at]gmail[dot]com>
+1. wp-footer-log.php by slangjis <slangjis [at] googlemail [dot] com>
+1. sLa2sLaNGjIs.php by slangjis <slangjis [at] googlemail [dot] com>
 
 according to the terms of the GNU General Public License version 2 (or later)
 
 According to the Terms of the GNU General Public License version 2 (or later) part of Copyright belongs to your own author and part belongs to their respective others authors:
 
-Copyright (C) 2008-2013 sla (email: <slangji[at]gmail[dot]com>)
+Copyright (C) 2008-2013 sla (email: <slangjis [at] googlemail [dot] com>)
 = Disclaimer =
 * The license under which the WordPress software is released is the GPLv2 (or later) from the Free Software Foundation. A copy of the license is included with every copy of WordPress.
 
@@ -151,7 +151,7 @@ Copyright (C) 2008-2013 sla (email: <slangji[at]gmail[dot]com>)
 
 The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
 = Guidelines =
-This software meet [Detailed Plugin Guidelines](http://wordpress.org/extend/plugins/about/guidelines/) paragraphs 1,4,10,12,13,16,17 quality requirements.
+This software meet [Detailed Plugin Guidelines](http://wordpress.org/plugins/about/guidelines/) paragraphs 1,4,10,12,13,16,17 quality requirements.
 
 The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
 = Coding =
@@ -159,6 +159,6 @@ This software implement [GNU style](http://www.gnu.org/prep/standards/standards.
 
 The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
 = Validation =
-This readme.txt rocks. Seriously. Flying colors. It meet the specifications according to WordPress [Readme Validator](http://wordpress.org/extend/plugins/about/validator/) directives.
+This readme.txt rocks. Seriously. Flying colors. It meet the specifications according to WordPress [Readme Validator](http://wordpress.org/plugins/about/validator/) directives.
 
 The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
