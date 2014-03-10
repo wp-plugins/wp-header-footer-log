@@ -7,7 +7,7 @@ Version: 2013.0218.0933
 Author: sLa NGjI's
 Author URI: http://slangji.wordpress.com/
 Requires at least: 2.1
-
+Tested up to: 3.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Indentation: GNU style coding standard
@@ -98,7 +98,6 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 	 * @subpackage WordPress PlugIn
 	 * @description Add and Show Info Text Log on Header and Footer when Plugin is Activated.
 	 * @since 2.1.0
-	 * @tested 3.6.0
 	 * @version 2013.0218.0933
 	 * @status STABLE (trunk) release
 	 * @development Code in Becoming!
