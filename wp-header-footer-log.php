@@ -2,7 +2,7 @@
 /*
 Plugin Name: WP Header Footer Log
 Plugin URI: http://slangji.wordpress.com/wp-header-footer-log/
-Description: add info text log (visible with view source browser function) on header and footer when plugin is activated without add nothing to wp_option database
+Description: add info text log (visible with view source browser function) on header and footer when plugin is activated without add nothing to wp_option database....
 Version: 2013.0218.0933
 Author: sLa NGjI's
 Author URI: http://slangji.wordpress.com/
