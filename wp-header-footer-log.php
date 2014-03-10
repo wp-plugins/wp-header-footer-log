@@ -1,13 +1,12 @@
 <?php
 /*
-Plugin Name: WP Header and Footer Log
+Plugin Name: WP Header Footer Log
 Plugin URI: http://slangji.wordpress.com/wp-header-footer-log/
-Description: This plugin explain how to insert and Show Informational Text Log (sample) on Header and Footer when Plugin is Activated, available and visible with view source browser function, without add nothing to wp_option database!
+Description: add info text log (visible with view source browser function) on header and footer when plugin is activated without add nothing to wp_option database
 Version: 2013.0218.0933
-Author: slangjis
+Author: sLa NGjI's
 Author URI: http://slangji.wordpress.com/
 Requires at least: 2.1
-Tested up to: 3.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Indentation: GNU style coding standard
@@ -15,9 +14,9 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
  *
  * LICENSING
  *
- * [WP Header and Footer Log](http://wordpress.org/plugins/wp-header-footer-log/) Insert and Show Informational Text Log on Header and Footer when Plugin is Activated.
+ * [WP Header Footer Log](http://wordpress.org/plugins/wp-header-footer-log/) Add and Show Info Text Log on Header and Footer when Plugin is Activated.
  *
- * Copyright (C) 2008-2013 [slangjis](http://slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
+ * Copyright (C) 2008-2014 [slangjis](http://slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the [GNU General Public License](http://wordpress.org/about/gpl/)
@@ -94,13 +93,11 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
  */
 
 	/**
-	 * @package WP Header and Footer Log 
+	 * @package WP Header Footer Log 
 	 * @subpackage WordPress PlugIn
-	 * @description 
+	 * @description Add and Show Info Text Log on Header and Footer when Plugin is Activated.
 	 * @since 2.1.0
-	 * @tested 3.6.0
 	 * @version 2013.0218.0933
-	 * @1stversion 
 	 * @status STABLE (trunk) release
 	 * @development Code in Becoming!
 	 * @install The configuration of this Plugin is Automattic!
@@ -108,8 +105,8 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 	 * @license GPLv2 or later
 	 * @indentation GNU style coding standard
 	 * @keybit oRBjljV2RNjAy8GpN8TkMxxbFjDR3NYVUwrdsQJr1qqZplUxWxmvLhXQp1GSzyRKu
-	 * @keysum 3A94D6D3E459D1391BC1857AC67CF36B
-	 * @keytag 3c7d1bee1f4b94f3db033f90db47c536
+	 * @keysum 
+	 * @keytag 
  	 */
 
 	if ( !function_exists( 'add_action' ) )
@@ -122,15 +119,15 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 				exit();
 		}
 
-	add_action( 'admin_head', 'wp_log_info_class' );	//Insert on Backend Header (Admin)
-	add_action( 'admin_footer', 'wp_log_info_class' );	//Insert on Backend Footer (Admin)
-	add_action( 'login_head', 'wp_log_info_class' );	//Insert on Login Header (All Admin/User)
-	add_action( 'login_footer', 'wp_log_info_class' );	//Insert on Login Footer (All Admin/User)
-	add_action( 'wp_head', 'wp_log_info_class' );		//Insert on Frontend Header (User)
-	add_action( 'wp_footer', 'wp_log_info_class' );		//Insert on Frontend Footer (User)
+	add_action( 'admin_head',	'wp_log_info_class' );	//Insert on Backend Header (Admin)
+	add_action( 'admin_footer',	'wp_log_info_class' );	//Insert on Backend Footer (Admin)
+	add_action( 'login_head',	'wp_log_info_class' );	//Insert on Login Header (All Admin/User)
+	add_action( 'login_footer',	'wp_log_info_class' );	//Insert on Login Footer (All Admin/User)
+	add_action( 'wp_head',		'wp_log_info_class' );	//Insert on Frontend Header (User)
+	add_action( 'wp_footer',	'wp_log_info_class' );	//Insert on Frontend Footer (User)
 
-	function wp_log_info_class() //nfo Text and Key Tag to Add and Show on Header and Footer
+	function wp_log_info_class()	//nfo Text and Key Tag to Add and Show on Header and Footer
 		{
-			echo "\n<!--Plugin Header and Footer Log 2013.0218.0933 Active - Tag ".md5(md5("oRBjljV2RNjAy8GpN8TkMxxbFjDR3NYVUwrdsQJr1qqZplUxWxmvLhXQp1GSzyRKu"."3A94D6D3E459D1391BC1857AC67CF36B"))."-->\n\n";
+			echo "\n<!--Plugin WP Header Footer Log 2013.0218.0933 Active - Tag ".md5(md5("oRBjljV2RNjAy8GpN8TkMxxbFjDR3NYVUwrdsQJr1qqZplUxWxmvLhXQp1GSzyRKu".""))."-->\n\n";
 		}
 ?>
