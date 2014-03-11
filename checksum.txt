@@ -1,9 +1,9 @@
-WP Header and Footer Log (2013.0218.0933) MD5 Checksum:
+WP Header Footer Log - Major Build - (Version 2014.0311.0133) MD5 Checksum:
 
-.htaccess                   770617C9F56BB9816D1EF92F469315C7
-index.html                  5865896914698FE4F520BE47FCC2163A
-index.php                   D5DB89A8CE9EE80E347D3E1AEA340F25
-keybit.txt                  3A94D6D3E459D1391BC1857AC67CF36B
-license.txt                 B234EE4D69F5FCE4486A80FDAF4A4263
-readme.txt                  295092B797185F4AB8DF8B6ABDC265EB
-wp-header-footer-log.php    9B481CE426F5C2B28B801BD1768FD25C
+.htaccess                                  C6D6229CBB97AFF1D08E3F5FBF12A879
+index.html                                 98D5DB5A9F362A5F6291DDD733CF0C65
+index.php                                  78E4C294EAD95679B9029B4DB722EDB0
+keybit.txt                                 C636455E049EDD19BD146B09AD088DBE
+license.txt                                75859989545E37968A99B631EF42722E
+readme.txt                                 4D2FA74BF7754FCE8439A3CC4EC7B9D2
+wp-header-footer-log.php                   5873A128D541BEFEC10C94BF8193337A

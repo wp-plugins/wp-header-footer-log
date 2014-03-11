@@ -3,7 +3,7 @@
 Plugin Name: WP Header Footer Log
 Plugin URI: http://slangji.wordpress.com/wp-header-footer-log/
 Description: add info text log (visible with view source browser function) on header and footer when plugin is activated without add nothing to wp_option database
-Version: 2013.0218.0933
+Version: 2014.0311.0133
 Author: sLa NGjI's
 Author URI: http://slangji.wordpress.com/
 Requires at least: 2.1
@@ -15,7 +15,8 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
  *
  * LICENSING
  *
- * [WP Header Footer Log](http://wordpress.org/plugins/wp-header-footer-log/) Add and Show Info Text Log on Header and Footer when Plugin is Activated.
+ * [WP Header Footer Log](http://wordpress.org/plugins/wp-header-footer-log/)
+ * Add and Show Info Text Log on Header and Footer when Plugin is Activated.
  *
  * Copyright (C) 2008-2014 [slangjis](http://slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
@@ -45,7 +46,8 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
  * There is some legal grey area regarding what is considered a derivative work, but we feel
  * strongly that plugins and themes are derivative work and thus inherit the GPL license.
  *
- * The license for this software can be found on [Free Software Foundation](http://www.gnu.org/licenses/gpl-2.0.html) and as license.txt into this plugin package.
+ * The license for this software can be found on [Free Software Foundation](http://www.gnu.org/licenses/gpl-2.0.html)
+ * and as license.txt into this plugin package.
  *
  * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
  *
@@ -68,7 +70,8 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
  *
  * according to the terms of the GNU General Public License version 2 (or later)
  *
- * According to the Terms of the GNU General Public License version 2 (or later) part of Copyright belongs to your own author and part belongs to their respective others authors:
+ * According to the Terms of the GNU General Public License version 2 (or later) part of Copyright belongs to your own author
+ * and part belongs to their respective others authors:
  *
  * Copyright (C) 2008-2013 [slangjis](http://slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
@@ -79,7 +82,9 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
  *
  * GUIDELINES
  *
- * This software meet [Detailed Plugin Guidelines](http://wordpress.org/plugins/about/guidelines/) paragraphs 1,4,10,12,13,16,17 quality requirements.
+ * This software meet [Detailed Plugin Guidelines](http://wordpress.org/plugins/about/guidelines/)
+ * paragraphs 1,4,10,12,13,16,17 quality requirements.
+ *
  * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
  *
  * CODING
@@ -89,7 +94,9 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
  *
  * VALIDATION
  *
- * This readme.txt rocks. Seriously. Flying colors. It meet the specifications according to WordPress [Readme Validator](http://wordpress.org/plugins/about/validator/) directives.
+ * This readme.txt rocks. Seriously. Flying colors. It meet the specifications according to
+ * WordPress [Readme Validator](http://wordpress.org/plugins/about/validator/) directives.
+ *
  * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
  */
 
@@ -98,7 +105,7 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 	 * @subpackage WordPress PlugIn
 	 * @description Add and Show Info Text Log on Header and Footer when Plugin is Activated.
 	 * @since 2.1.0
-	 * @version 2013.0218.0933
+	 * @version 2014.0311.0133
 	 * @status STABLE (trunk) release
 	 * @development Code in Becoming!
 	 * @install The configuration of this Plugin is Automattic!
@@ -106,8 +113,8 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 	 * @license GPLv2 or later
 	 * @indentation GNU style coding standard
 	 * @keybit oRBjljV2RNjAy8GpN8TkMxxbFjDR3NYVUwrdsQJr1qqZplUxWxmvLhXQp1GSzyRKu
-	 * @keysum 
-	 * @keytag 
+	 * @keysum C636455E049EDD19BD146B09AD088DBE
+	 * @keytag 5409782aca86f95e7026a057a807f174
  	 */
 
 	if ( !function_exists( 'add_action' ) )
@@ -129,6 +136,6 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 
 	function wp_log_info_class()	//nfo Text and Key Tag to Add and Show on Header and Footer
 		{
-			echo "\n<!--Plugin WP Header Footer Log 2013.0218.0933 Active - Tag ".md5(md5("oRBjljV2RNjAy8GpN8TkMxxbFjDR3NYVUwrdsQJr1qqZplUxWxmvLhXQp1GSzyRKu".""))."-->\n\n";
+			echo "\n<!--Plugin WP Header Footer Log 2014.0311.0133 Active - Tag ".md5(md5("oRBjljV2RNjAy8GpN8TkMxxbFjDR3NYVUwrdsQJr1qqZplUxWxmvLhXQp1GSzyRKu"."C636455E049EDD19BD146B09AD088DBE"))."-->\n\n";
 		}
 ?>
