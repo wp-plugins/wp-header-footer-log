@@ -1,17 +1,17 @@
-=== Header Footer Log show source nfo txt ===
+=== Header Footer src nfo txt ===
 Contributors: slangjis
 Donate link: //slangji.wordpress.com/donate/
-Tags: active, footer, header, info, log, plugin, plugins, show, sLa, sLaNGjIs, wordpress, wp
+Tags: active, footer, header, info, insert, log, login, plugin, show, source, sLaNGjIs, wordpress
 Stable tag: trunk
 Requires at least: 2.1
 Tested up to: 4.0
 License: GPLv2 or later
 License URI: //www.gnu.org/licenses/gpl-2.0.html
-add info text log (visible with view source browser function) on header and footer when plugin is activated without add nothing to wp_option database
+add src nfo txt log (visible with show source browser function) on header footer login when plugin activated without add nothing to wp_option database
 == Description ==
-insert informational text log (available and visible with view source browser function) on header and footer when plugin is activated without add nothing to wp_option database
+insert informational text log (available and visible with show view source browser function) on header footer and login when plugin is activated without add nothing to wp_option database table and hosting space or add external php file
 
-This plugin explain one sample how to Insert Informational Text Log (available and visible with view source browser function) on Header and Footer when Plugin is Activated, without add nothing to wp_option database!
+This sample wordpress plugin explain how to Insert Source Informational Text Log (available and visible with show view source browser function) on Header Footer and Login when one Plugin is Activated, without add nothing to wp_option database table and hosting space or adding external php files!
 
 = Common Rules =
 * Compatible with: WordPress, bbPress, Buddypress.
