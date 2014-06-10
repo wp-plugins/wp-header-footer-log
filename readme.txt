@@ -1,4 +1,4 @@
-=== Header Footer src nfo txt ===
+=== Header Footer Login Log ===
 Contributors: slangjis
 Donate link: //slangji.wordpress.com/donate/
 Tags: active, footer, header, info, insert, log, login, plugin, show, source, sLaNGjIs, wordpress
