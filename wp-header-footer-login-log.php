@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: WP Header Footer Login Log - DEV
+Plugin Name: WP Header Footer Login Log
 Plugin URI: //slangji.wordpress.com/wp-header-footer-log/
 Description: add src nfo txt log (visible with show view source browser function) on header footer and login when plugin is activated without add nothing to wp_option database table
 Version: 2014.0610.0410
@@ -114,8 +114,8 @@ Indentation URI: //www.gnu.org/prep/standards/standards.html
 	 * @license GPLv2 or later
 	 * @indentation GNU style coding standard
 	 * @keybit oRBjljV2RNjAy8GpN8TkMxxbFjDR3NYVUwrdsQJr1qqZplUxWxmvLhXQp1GSzyRKu
-	 * @keysum C636455E049EDD19BD146B09AD088DBE
-	 * @keytag 5409782aca86f95e7026a057a807f174
+	 * @keysum 1DF27FCEEC89A5704B72A0097B5260B1
+	 * @keytag ebbc29555a519a59a31f888df25fa56f
  	 */
 
 	if ( ! function_exists( 'add_action' ) )
@@ -176,7 +176,7 @@ Indentation URI: //www.gnu.org/prep/standards/standards.html
 
 						{
 
-							echo "\n<!--Plugin WP Header Footer Login Log 2014.0610.0410 Active - Tag ".md5(md5("oRBjljV2RNjAy8GpN8TkMxxbFjDR3NYVUwrdsQJr1qqZplUxWxmvLhXQp1GSzyRKu"."C636455E049EDD19BD146B09AD088DBE"))."-->\n\n";
+							echo "\n<!--Plugin WP Header Footer Login Log 2014.0610.0410 Active - Tag ".md5(md5("oRBjljV2RNjAy8GpN8TkMxxbFjDR3NYVUwrdsQJr1qqZplUxWxmvLhXQp1GSzyRKu"."1DF27FCEEC89A5704B72A0097B5260B1"))."-->\n\n";
 
 						}
 
