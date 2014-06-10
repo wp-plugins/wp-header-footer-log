@@ -94,7 +94,7 @@ Markdown uses email style notation for blockquotes and I've been told:
 `All previous release, prior of latest stable, are on fact
 deprecated, and no longer supported on this project:
 is very suggested upgrade to the latest build always!`
-= 2014.0311.0133 =
+= 2014.0610.0410 =
 * Major Release [STABLE] Class Constructor for Functions Isolation
  * Full Compatible with WordPress 2.1+ to 4.1+
  * NEW Prioritization Plugin Loading (testers wanted)
