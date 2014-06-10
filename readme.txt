@@ -4,7 +4,7 @@ Donate link: //slangji.wordpress.com/donate/
 Tags: active, footer, header, info, insert, log, login, plugin, show, source, sLaNGjIs, wordpress
 Stable tag: trunk
 Requires at least: 2.1
-Tested up to: 4.0
+Tested up to: 4.1
 License: GPLv2 or later
 License URI: //www.gnu.org/licenses/gpl-2.0.html
 add src nfo txt log (visible with show source browser function) on header footer login when plugin activated without add nothing to wp_option database
