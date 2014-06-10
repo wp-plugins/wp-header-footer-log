@@ -1,27 +1,28 @@
 <?php
 /*
 Plugin Name: WP Header Footer Log
-Plugin URI: http://slangji.wordpress.com/wp-header-footer-log/
-Description: add info text log (visible with view source browser function) on header and footer when plugin is activated without add nothing to wp_option database
+Plugin URI: //slangji.wordpress.com/wp-header-footer-log/
+Description: add src nfo txt log (visible with show view source browser function) on header footer and login when plugin is activated without add nothing to wp_option database table
 Version: 2014.0311.0133
 Author: sLa NGjI's
-Author URI: http://slangji.wordpress.com/
+Author URI: //slangji.wordpress.com/
 Requires at least: 2.1
 Tested up to: 3.9
 License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License URI: //www.gnu.org/licenses/gpl-2.0.html
 Indentation: GNU style coding standard
-Indentation URI: http://www.gnu.org/prep/standards/standards.html
+Indentation URI: //www.gnu.org/prep/standards/standards.html
  *
  * LICENSING
  *
- * [WP Header Footer Log](http://wordpress.org/plugins/wp-header-footer-log/)
- * Add and Show Info Text Log on Header and Footer when Plugin is Activated.
+ * [WP Header Footer Log](//wordpress.org/plugins/wp-header-footer-log/)
  *
- * Copyright (C) 2008-2014 [slangjis](http://slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
+ * Add and Show Info Text Log on Header Footer and Login when Plugin is Activated
+ *
+ * Copyright (C) 2008-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
  * This program is free software; you can redistribute it and/or
- * modify it under the terms of the [GNU General Public License](http://wordpress.org/about/gpl/)
+ * modify it under the terms of the [GNU General Public License](//wordpress.org/about/gpl/)
  * as published by the Free Software Foundation; either version 2
  * of the License, or (at your option) any later version.
  *
@@ -31,7 +32,7 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with this program; if not, see [GNU General Public Licenses](http://www.gnu.org/licenses/),
+ * along with this program; if not, see [GNU General Public Licenses](//www.gnu.org/licenses/),
  * or write to the Free Software Foundation, Inc., 51 Franklin Street,
  * Fifth Floor, Boston, MA 02110-1301, USA.
  *
@@ -46,7 +47,7 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
  * There is some legal grey area regarding what is considered a derivative work, but we feel
  * strongly that plugins and themes are derivative work and thus inherit the GPL license.
  *
- * The license for this software can be found on [Free Software Foundation](http://www.gnu.org/licenses/gpl-2.0.html)
+ * The license for this software can be found on [Free Software Foundation](//www.gnu.org/licenses/gpl-2.0.html)
  * and as license.txt into this plugin package.
  *
  * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
@@ -56,54 +57,54 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
  * This uses (or it parts) code derived from
  *
  * wp-header-footer-log.php by slangjis <slangjis [at] googlemail [dot] com>
- * Copyright (C) 2009-2013 [slangjis](http://slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
+ * Copyright (C) 2009-2013 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
  * according to the terms of the GNU General Public License version 2 (or later)
  *
  * This wp-header-footer-log.php uses (or it parts) code derived from
  *
  * wp-footer-log.php by slangjis <slangjis [at] googlemail [dot] com>
- * Copyright (C) 2008-2013 [slangjis](http://slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
+ * Copyright (C) 2008-2013 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
  * sLa2sLaNGjIs.php by slangjis <slangjis [at] googlemail [dot] com>
- * Copyright (C) 2009-2013 [slangjis](http://slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
+ * Copyright (C) 2009-2013 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
  * according to the terms of the GNU General Public License version 2 (or later)
  *
  * According to the Terms of the GNU General Public License version 2 (or later) part of Copyright belongs to your own author
  * and part belongs to their respective others authors:
  *
- * Copyright (C) 2008-2013 [slangjis](http://slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
+ * Copyright (C) 2008-2013 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
  * VIOLATIONS
  *
- * [Violations of the GNU Licenses](http://www.gnu.org/licenses/gpl-violation.en.html)
+ * [Violations of the GNU Licenses](//www.gnu.org/licenses/gpl-violation.en.html)
  * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
  *
  * GUIDELINES
  *
- * This software meet [Detailed Plugin Guidelines](http://wordpress.org/plugins/about/guidelines/)
+ * This software meet [Detailed Plugin Guidelines](//wordpress.org/plugins/about/guidelines/)
  * paragraphs 1,4,10,12,13,16,17 quality requirements.
  *
  * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
  *
  * CODING
  *
- * This software implement [GNU style](http://www.gnu.org/prep/standards/standards.html) coding standard indentation.
+ * This software implement [GNU style](//www.gnu.org/prep/standards/standards.html) coding standard indentation.
  * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
  *
  * VALIDATION
  *
  * This readme.txt rocks. Seriously. Flying colors. It meet the specifications according to
- * WordPress [Readme Validator](http://wordpress.org/plugins/about/validator/) directives.
+ * WordPress [Readme Validator](//wordpress.org/plugins/about/validator/) directives.
  *
  * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
  */
 
 	/**
-	 * @package WP Header Footer Log 
+	 * @package WP Header Footer Log
 	 * @subpackage WordPress PlugIn
-	 * @description Add and Show Info Text Log on Header and Footer when Plugin is Activated.
+	 * @description Add and Show Info Text Log on Header Footer and Login when Plugin is Activated
 	 * @since 2.1.0
 	 * @version 2014.0311.0133
 	 * @status STABLE (trunk) release
@@ -117,25 +118,33 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 	 * @keytag 5409782aca86f95e7026a057a807f174
  	 */
 
-	if ( !function_exists( 'add_action' ) )
+	if ( ! function_exists( 'add_action' ) )
+
 		{
+
 			header( 'HTTP/0.9 403 Forbidden' );
 			header( 'HTTP/1.0 403 Forbidden' );
 			header( 'HTTP/1.1 403 Forbidden' );
 			header( 'Status: 403 Forbidden' );
 			header( 'Connection: Close' );
+
 				exit();
+
 		}
 
-	add_action( 'admin_head',	'wp_log_info_class' );	//Insert on Backend Header (Admin)
-	add_action( 'admin_footer',	'wp_log_info_class' );	//Insert on Backend Footer (Admin)
-	add_action( 'login_head',	'wp_log_info_class' );	//Insert on Login Header (All Admin/User)
-	add_action( 'login_footer',	'wp_log_info_class' );	//Insert on Login Footer (All Admin/User)
-	add_action( 'wp_head',		'wp_log_info_class' );	//Insert on Frontend Header (User)
-	add_action( 'wp_footer',	'wp_log_info_class' );	//Insert on Frontend Footer (User)
+	add_action( 'admin_head'   , 'wp_log_info_source_text' ); // Insert on Backend Header (Admin User Roles Only)
+	add_action( 'admin_footer' , 'wp_log_info_source_text' ); // Insert on Backend Footer (Admin User Roles Only)
+	add_action( 'login_head'   , 'wp_log_info_source_text' ); // Insert on Login Header (All Admin and User Roles)
+	add_action( 'login_footer' , 'wp_log_info_source_text' ); // Insert on Login Footer (All Admin and User Roles)
+	add_action( 'wp_head'      , 'wp_log_info_source_text' ); // Insert on Frontend Header (User Roles Only)
+	add_action( 'wp_footer'    , 'wp_log_info_source_text' ); // Insert on Frontend Footer (User roles Only)
 
-	function wp_log_info_class()	//nfo Text and Key Tag to Add and Show on Header and Footer
+	function wp_log_info_source_text() // info text log and key tag to insert and show on header or footer or login source
+
 		{
+
 			echo "\n<!--Plugin WP Header Footer Log 2014.0311.0133 Active - Tag ".md5(md5("oRBjljV2RNjAy8GpN8TkMxxbFjDR3NYVUwrdsQJr1qqZplUxWxmvLhXQp1GSzyRKu"."C636455E049EDD19BD146B09AD088DBE"))."-->\n\n";
+
 		}
+
 ?>
