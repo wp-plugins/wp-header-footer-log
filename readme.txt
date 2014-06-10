@@ -87,7 +87,7 @@ Markdown uses email style notation for blockquotes and I've been told:
 1. Informational Text Showed on Header Log
 2. Informational Text Showed on Footer Log
 == Changelog ==
-= Todo List =
+= To-Do List =
 1. Authenticity Plugin Check (2014.0000.2015) No Date Set!
 1. Secure Plugin Activation	(2014.0000.2015) No Date Set!
 = Disclaimer =
