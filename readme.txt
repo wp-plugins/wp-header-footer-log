@@ -15,7 +15,7 @@ This sample wordpress plugin explain how to Insert Source Informational Text Log
 
 = Common Rules =
 * Compatible with: WordPress, bbPress, Buddypress.
-* Work with all WordPress Versions from 2.5+ to 3.9+
+* Work with all WordPress Versions from 2.1+ to 4.1+
 * No interference with others Scheduled Cron Jobs at scale.
 * Ready to Single and Network Multisite Environment.
 * Full Strict Security Rules Applied.
@@ -43,6 +43,7 @@ No need delete anything from wp_option when deleted
 * [My Others WordPress Plugins](//slangji.wordpress.com/plugins/)
  * [WP Overview (lite)](//wordpress.org/plugins/wp-overview-lite/)
  * [WP Missed Schedule](//wordpress.org/plugins/wp-missed-schedule/)
+ * [Global Hide Toolbar](//wordpress.org/plugins/global-admin-bar-hide-or-remove/) (new)
  * [WP Admin Bar Removal](//wordpress.org/plugins/wp-admin-bar-removal/) Linked and reviewed at [softpedia.com](//webscripts.softpedia.com/script/Modules/WordPress-Plugins/Admin-Bar-Removal-completely-disable-73547.html)
  * [WP Admin Bar Removal Node](//wordpress.org/plugins/wp-admin-bar-node-removal/)
  * [WP ToolBar Removal](//wordpress.org/plugins/wp-toolbar-removal/) Linked and reviewed at [softpedia.com](//webscripts.softpedia.com/script/Modules/WordPress-Plugins/ToolBar-Removal-completely-disable-73548.html)
@@ -51,7 +52,7 @@ No need delete anything from wp_option when deleted
  * [Noindex (total) WordPress Deindexing](//wordpress.org/plugins/wp-total-deindexing/) (refreshed)
  * [IE Enhancer and Modernizer](//wordpress.org/plugins/wp-ie-enhancer-and-modernizer/) Linked and reviewed at [softpedia.com](//webscripts.softpedia.com/script/Modules/WordPress-Plugins/IE-Enhancer-and-Modernizer-73546.html)
  * [Memory Load Consumption db size Usage Indicator](//wordpress.org/plugins/wp-memory-db-indicator/) (new)
- * [Header and Footer Log](//wordpress.org/plugins/wp-header-footer-log/) Only For Developers (and advanced users)
+ * [Header Footer Login Log](//wordpress.org/plugins/wp-header-footer-log/) Only For Developers (and advanced users)
 == Installation ==
 1. Upload `WP Header Footer Log` to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
@@ -87,15 +88,21 @@ Markdown uses email style notation for blockquotes and I've been told:
 2. Informational Text Showed on Footer Log
 == Changelog ==
 = Todo List =
-1. Prioritization Plugin Loading (2014.1231.2014) testers wanted
 1. Authenticity Plugin Check (2014.0000.2015) No Date Set!
 1. Secure Plugin Activation	(2014.0000.2015) No Date Set!
-= Development Release =
-[Version 2014 Build 0000-BUGFIX.2015-DEVELOPMENTAL](//downloads.wordpress.org/plugin/wp-header-footer-log.zip)
 = Disclaimer =
 `All previous release, prior of latest stable, are on fact
 deprecated, and no longer supported on this project:
 is very suggested upgrade to the latest build always!`
+= 2014.0311.0133 =
+* Major Release [STABLE] Class Constructor for Functions Isolation
+ * Full Compatible with WordPress 2.1+ to 4.1+
+ * NEW Prioritization Plugin Loading (testers wanted)
+ * NEW Class Constructor
+ * NEW Functions Isolation
+ * UPDATED Preemptive Support for Future WordPress 4.0+
+ * UPDATED Preemptive Support for Future WordPress 4.1+
+ * BUMP Version 2014 Build 0610 Revision 0410
 = 2014.0311.0133 =
 * Major Release Refresh [STABLE] Reloaded Plugin Refresh
  * NEW Cooding Refresh
@@ -133,14 +140,8 @@ is very suggested upgrade to the latest build always!`
 * Nothing is written into space disk.
 * Nothing is written into wp_option database table.
 == Upgrade Notice ==
-= 2014.0311.0133 =
-* Major Release Refresh [STABLE] Reloaded Plugin and Cooding Refresh - Since (6 years) 2008 ... Only For Developers!
-= 2013.0218.0933 =
-* Release [STABLE] Assign Security Key Tag to Plugin Info Text Log.
-= 2013.0217.1138 =
-Release [STABLE] Introducing Security Key Tag Support.
-= 2009.1208.2009 =
-Release [STABLE] Insert and Show Informational Text on Header and Footer when Plugin is Activated.
+= 2014.0610.0410 =
+* Major Release [STABLE] New Class Constructor for Functions Isolation and Prioritization Plugin Loading (testers wanted) - Since (6 years) 2008 ... Only For Developers! Preemptive Support for Future WordPress Version 4.0+ and 4.1+
 == Arbitrary Section ==
 You may provide arbitrary sections, in the same format as the ones above. This may be of use for extremely complicated plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or "installation."  Arbitrary sections will be shown below the built-in sections outlined above.
 = License =

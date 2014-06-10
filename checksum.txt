@@ -5,5 +5,5 @@ index.html                                 4D4F5751967030B846DAA84384AC1F59
 index.php                                  1565911569FFD99A8725C0412638D8D3
 keybit.txt                                 C636455E049EDD19BD146B09AD088DBE
 license.txt                                39BBA7D2CF0BA1036F2A6E2BE52FE3F0
-readme.txt                                 9AEE1E1F31AD3374120D44364A8BCCA9
+readme.txt                                 413AD4C0DFC4BC528C592905818AC6F1
 wp-header-footer-log.php                   82327516A0E0264008C47B9B96991183
