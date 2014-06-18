@@ -2,7 +2,7 @@
 Contributors: slangjis
 Donate link: //slangji.wordpress.com/donate/
 Tags: active, footer, header, info, insert, log, login, plugin, show, source, sLaNGjIs, wordpress
-Stable tag: trunk
+Stable tag: 2014.0610.0410
 Requires at least: 2.1
 Tested up to: 4.1
 License: GPLv2 or later
