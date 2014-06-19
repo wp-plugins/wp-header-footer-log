@@ -1,12 +1,10 @@
 === Header Footer Login Log ===
 Contributors: slangjis
-Donate link: //slangji.wordpress.com/donate/
+Donate link: http://slangji.wordpress.com/donate/
 Tags: active, footer, header, info, insert, log, login, plugin, show, source, sLaNGjIs, wordpress
-Stable tag: 2014.0610.0410
+Stable tag: trunk
 Requires at least: 2.1
 Tested up to: 4.1
-License: GPLv2 or later
-License URI: //www.gnu.org/licenses/gpl-2.0.html
 add src nfo txt log (visible with show source browser function) on header footer login when plugin activated without add nothing to wp_option database
 == Description ==
 insert informational text log (available and visible with show view source browser function) on header footer and login when plugin is activated without add nothing to wp_option database table and hosting space or add external php file

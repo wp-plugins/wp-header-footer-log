@@ -1,19 +1,23 @@
 <?php
 /*
 Plugin Name: WP Header Footer Login Log
-Plugin URI: //slangji.wordpress.com/wp-header-footer-log/
+Plugin URI: http://slangji.wordpress.com/wp-header-footer-log/
 Description: add src nfo txt log (visible with show view source browser function) on header footer and login when plugin is activated without add nothing to wp_option database table
 Version: 2014.0610.0410
-Author: sLa NGjI's
-Author URI: //slangji.wordpress.com/
+Author: slangjis
+Author URI: http://slangji.wordpress.com/
 Requires at least: 2.1
 Tested up to: 4.1
+Donate link: http://slangji.wordpress.com/donate/
+Network: true
 License: GPLv2 or later
-License URI: //www.gnu.org/licenses/gpl-2.0.html
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Indentation: GNU style coding standard
-Indentation URI: //www.gnu.org/prep/standards/standards.html
+Indentation URI: http://www.gnu.org/prep/standards/standards.html
+Humans: We are the humans behind
+Humans URI: http://humanstxt.org/Standard.html
  *
- * LICENSING
+ * LICENSING (license.txt)
  *
  * [WP Header Footer Log](//wordpress.org/plugins/wp-header-footer-log/)
  *
@@ -99,18 +103,27 @@ Indentation URI: //www.gnu.org/prep/standards/standards.html
  * WordPress [Readme Validator](//wordpress.org/plugins/about/validator/) directives.
  *
  * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
+ *
+ * HUMANS (humans.txt)
+ *
+ * We are the Humans behind this project [humanstxt.org](//humanstxt.org/Standard.html)
+ *
+ * This software meet detailed humans rights belongs to your own author and to their respective other authors.
+ * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
+ *
  */
 
 	/**
 	 * @package WP Header Footer Log
 	 * @subpackage WordPress PlugIn
 	 * @description Add and Show Info Text Log on Header Footer and Login when Plugin is Activated
+	 * @author slangjis
 	 * @since 2.1.0
+	 * @tested 3.9.1
 	 * @version 2014.0610.0410
 	 * @status STABLE (trunk) release
 	 * @development Code in Becoming!
 	 * @install The configuration of this Plugin is Automattic!
-	 * @author slangjis
 	 * @license GPLv2 or later
 	 * @indentation GNU style coding standard
 	 * @keybit oRBjljV2RNjAy8GpN8TkMxxbFjDR3NYVUwrdsQJr1qqZplUxWxmvLhXQp1GSzyRKu
