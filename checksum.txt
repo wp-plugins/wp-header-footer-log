@@ -1,0 +1,11 @@
+WP Header Footer Login Log - Build 2015-02-28 - (Version 2015.0228.0) Checksum
+
+index.html                            54A01CA5D70FEA225033BAFBDCDA70A072F5E97A
+.htaccess                             676BC7D0117B0A42CAC9C2FA1F56D12B5D3A2940
+gpl-2.0.txt                           4CC77B90AF91E615A64AE04893FDFFA7939DB84C
+humans.txt                            79075B3DBB01F3B3C41BCC2F6BBCAE51C7C5EBAA
+index.php                             E7AAE16F989CCC127919723814DCEB6C32835293
+keybit.txt                            2B7C4494660A03401EF1FDE0193FA8771FB585CC
+license.txt                           4CC77B90AF91E615A64AE04893FDFFA7939DB84C
+readme.txt                            F9BC7442594C5211E4643B9802FB5A49688BDB37
+wp-header-footer-log.php              F9BC7442594C5211E4643B9802FB5A49688BDB37

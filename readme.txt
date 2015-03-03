@@ -4,7 +4,7 @@ Donate link: http://slangji.wordpress.com/donate/
 Tags: active, footer, header, info, insert, log, login, plugin, show, source, sLaNGjIs, wordpress
 Stable tag: trunk
 Requires at least: 2.1
-Tested up to: 4.1
+Tested up to: 4.2
 add src nfo txt log (visible with show source browser function) on header footer login when plugin activated without add nothing to wp_option database
 == Description ==
 insert informational text log (available and visible with show view source browser function) on header footer and login when plugin is activated without add nothing to wp_option database table and hosting space or add external php file
@@ -13,7 +13,7 @@ This sample wordpress plugin explain how to Insert Source Informational Text Log
 
 = Common Rules =
 * Compatible with: WordPress, bbPress, Buddypress.
-* Work with all WordPress Versions from 2.1+ to 4.1+
+* Work with all WordPress Versions from 2.1+ to 4.2+
 * No interference with others Scheduled Cron Jobs at scale.
 * Ready to Single and Network Multisite Environment.
 * Full Strict Security Rules Applied.
@@ -86,12 +86,26 @@ Markdown uses email style notation for blockquotes and I've been told:
 2. Informational Text Showed on Footer Log
 == Changelog ==
 = To-Do List =
-1. Authenticity Plugin Check (2014.0000.2015) No Date Set!
-1. Secure Plugin Activation	(2014.0000.2015) No Date Set!
+1. Authenticity Plugin Check (2015.0000) No Date Set!
+1. Secure Plugin Activation	(2015.0000) No Date Set!
 = Disclaimer =
 `All previous release, prior of latest stable, are on fact
 deprecated, and no longer supported on this project:
 is very suggested upgrade to the latest build always!`
+= 2015.0228 =
+* Security [UPDATE] Disabled ability to identify version and build installed.
+ * Please update as soon as possible!
+ * Stable Release 2015 Branche 2014 Build 2015-02-28
+ * Full Compatible with WordPress 2.1+ to 4.2+
+ * NEW Updated Header Footer Login Code.
+ * NEW Security rules to activate and manage functions.
+ * NEW Disabled ability to identify version and build installed.
+ * NEW Migrated MD5 Checksum to SHA1.
+ * SECURITY revised some possible paranoid security issues.
+ * SECURITY only admins view backend header and footer log.
+ * SECURITY limited frontend header and footer log to home.
+ * UPDATED Preemptive Support for Future WordPress 4.2+
+ * BUMP Version 2015 Build 0228 Revision 0
 = 2014.0610.0410 =
 * Major Release [STABLE] Class Constructor for Functions Isolation
  * Full Compatible with WordPress 2.1+ to 4.1+
@@ -138,8 +152,8 @@ is very suggested upgrade to the latest build always!`
 * Nothing is written into space disk.
 * Nothing is written into wp_option database table.
 == Upgrade Notice ==
-= 2014.0610.0410 =
-* Major Release [STABLE] New Class Constructor for Functions Isolation and Prioritization Plugin Loading (testers wanted) - Since (6 years) 2008 ... Only For Developers! Preemptive Support for Future WordPress Version 4.0+ and 4.1+
+= 2015.0228 =
+Security [UPDATE] WP 2.5+ to 4.2 (Build 2015-02-28) Updated Header Footer Login Code. Disabled the ability to identify the version and build installed. Migrated MD5 Checksum to SHA1 - Since (6 years) 2008 ... Only For Developers!
 == Arbitrary Section ==
 You may provide arbitrary sections, in the same format as the ones above. This may be of use for extremely complicated plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or "installation."  Arbitrary sections will be shown below the built-in sections outlined above.
 = License =

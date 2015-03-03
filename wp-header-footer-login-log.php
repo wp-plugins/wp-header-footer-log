@@ -1,15 +1,15 @@
-<?php
+<?php 
 /*
 Plugin Name: WP Header Footer Login Log
 Plugin URI: http://slangji.wordpress.com/wp-header-footer-log/
 Description: add src nfo txt log (visible with show view source browser function) on header footer and login when plugin is activated without add nothing to wp_option database table
-Version: 2014.0610.0410
-Author: slangjis
+Version: 2015.0228
+KeyTag: 01921ed5a36ed61cdf16fa691ebb622536a54725
+Author: sLa NGjI's
 Author URI: http://slangji.wordpress.com/
 Requires at least: 2.1
-Tested up to: 4.1
-Donate link: http://slangji.wordpress.com/donate/
-Network: true
+Text Domain: wpheaderfooterloginlog
+Domain Path: /languages/
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Indentation: GNU style coding standard
@@ -23,7 +23,7 @@ Humans URI: http://humanstxt.org/Standard.html
  *
  * Add and Show Info Text Log on Header Footer and Login when Plugin is Activated
  *
- * Copyright (C) 2008-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
+ * Copyright (C) 2008-2015 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the [GNU General Public License](//wordpress.org/about/gpl/)
@@ -117,18 +117,18 @@ Humans URI: http://humanstxt.org/Standard.html
 	 * @package WP Header Footer Log
 	 * @subpackage WordPress PlugIn
 	 * @description Add and Show Info Text Log on Header Footer and Login when Plugin is Activated
-	 * @author slangjis
-	 * @since 2.1.0
-	 * @tested 3.9.1
-	 * @version 2014.0610.0410
 	 * @status STABLE (trunk) release
+	 * @author slangjis
+	 * @since   2.1+
+	 * @branche 2015
+	 * @build   2015-02-28
+	 * @version 2015.0228
 	 * @development Code in Becoming!
-	 * @install The configuration of this Plugin is Automattic!
 	 * @license GPLv2 or later
 	 * @indentation GNU style coding standard
-	 * @keybit oRBjljV2RNjAy8GpN8TkMxxbFjDR3NYVUwrdsQJr1qqZplUxWxmvLhXQp1GSzyRKu
-	 * @keysum 1DF27FCEEC89A5704B72A0097B5260B1
-	 * @keytag ebbc29555a519a59a31f888df25fa56f
+	 * @keybit i93W9560t1KdT4l46W84285uVFug612x3nw5CC3lx75Hwx4561243NkVp2M20yn58
+	 * @keysum B640B1B9F4254A2140D443609346C6569EF79B46
+	 * @keytag 01921ed5a36ed61cdf16fa691ebb622536a54725
  	 */
 
 	if ( ! function_exists( 'add_action' ) )
@@ -145,12 +145,14 @@ Humans URI: http://humanstxt.org/Standard.html
 
 		}
 
-	add_action( 'admin_head'   , 'wp_log_info_source_text' ); // Insert on Backend Header (Admin User Roles Only)
-	add_action( 'admin_footer' , 'wp_log_info_source_text' ); // Insert on Backend Footer (Admin User Roles Only)
-	add_action( 'login_head'   , 'wp_log_info_source_text' ); // Insert on Login Header (All Admin and User Roles)
-	add_action( 'login_footer' , 'wp_log_info_source_text' ); // Insert on Login Footer (All Admin and User Roles)
-	add_action( 'wp_head'      , 'wp_log_info_source_text' ); // Insert on Frontend Header (User Roles Only)
-	add_action( 'wp_footer'    , 'wp_log_info_source_text' ); // Insert on Frontend Footer (User roles Only)
+	add_action( 'admin_head'   , 'wp_log_info_source_text_authag' ); // Insert on Backend Header (Admin User Roles Only)
+	add_action( 'admin_footer' , 'wp_log_info_source_text_authag' ); // Insert on Backend Footer (Admin User Roles Only)
+
+	add_action( 'login_head'   , 'wp_log_info_source_text_logtag' ); // Insert on Login Header (All Admin and User Roles) optionally
+	add_action( 'login_footer' , 'wp_log_info_source_text_logtag' ); // Insert on Login Footer (All Admin and User Roles) optionally
+
+	add_action( 'wp_head'      , 'wp_log_info_source_text_pubtag' ); // Insert on Frontend Header (User Roles Only)
+	add_action( 'wp_footer'    , 'wp_log_info_source_text_pubtag' ); // Insert on Frontend Footer (User roles Only)
 
 	new Header_Footer_Login_Text();
 
@@ -185,15 +187,49 @@ Humans URI: http://humanstxt.org/Standard.html
 
 					add_action( 'activated_plugin' , 'wp_log_info_source_text_1st' , 1000 );
 
-					function wp_log_info_source_text() // info text log and key tag to insert and show on header or footer or login source
+					function wp_log_info_source_text_pubtag() // info text log and key tag to insert and show on header or footer or login source
 
 						{
 
-							echo "\n<!--Plugin WP Header Footer Login Log 2014.0610.0410 Active - Tag ".md5(md5("oRBjljV2RNjAy8GpN8TkMxxbFjDR3NYVUwrdsQJr1qqZplUxWxmvLhXQp1GSzyRKu"."1DF27FCEEC89A5704B72A0097B5260B1"))."-->\n\n";
+								if ( ! is_home() && ! is_front_page() )
+
+									return;
+
+								{
+
+									echo "\r\n<!--Plugin WP Header Footer Login Log Active - Secured with Genuine Authenticity KeyTag-->\r\n\r\n";
+
+								}
+
+						}
+						
+					function wp_log_info_source_text_logtag()
+
+						{
+
+							echo "\r\n<!--Plugin WP Header Footer Login Log Active - Secured with Genuine Authenticity KeyTag-->\r\n\r\n";
 
 						}
 
-				}
+					function wp_log_info_source_text_authag()
+
+						{
+
+							if ( ! current_user_can( 'administrator' ) )
+
+								return;
+
+							{
+
+								echo "\r\n<!--Secured AuthTag - ".sha1(sha1("i93W9560t1KdT4l46W84285uVFug612x3nw5CC3lx75Hwx4561243NkVp2M20yn58"."B640B1B9F4254A2140D443609346C6569EF79B46"))."-->\r\n";
+								echo "\r\n<!--Verified KeyTag - 01921ed5a36ed61cdf16fa691ebb622536a54725-->\r\n";
+								echo "\r\n<!-- Your copy of Plugin WP Header Footer Log free is Genuine -->\r\n\r\n";
+
+							}
+
+						}
+
+			}
 
 		}
 
